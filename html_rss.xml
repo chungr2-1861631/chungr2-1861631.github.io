@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+      
+<channel>
+  <title>Churros</title>
+  <link>https://www.youtube.com/watch?v=iT9IpYSS7uA</link>
+  <description>Baked instead of fried</description>
+  <item>
+    <title>Chocolate Cake</title>
+    <link>https://www.youtube.com/watch?v=ExPO8lDjf-Yk</link>
+    <description>Made in the microwave and takes 10 minutes total</description>
+  </item>
+  <item>
+    <title>Cinnamon Rolls</title>
+    <link>https://www.youtube.com/watch?v=oTdU13pryV0</link>
+    <description>Easy Recipe</description>
+  </item>
+  </channel>
+
+ </rss>
