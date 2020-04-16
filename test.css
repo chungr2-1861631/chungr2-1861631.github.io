@@ -1,0 +1,99 @@
+body{
+    background-image: url('dark_wood.png');
+}
+
+p{
+    color: white;
+    font-family: "Arial";
+}
+
+h3{
+    color: #FFBC00;
+    font-size: 40px;
+    font-family: "Passion One";
+    margin-bottom: 0px;
+    text-decoration: line-through red;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 75px;
+    width: 200px;
+    background-color: rgb(234, 0, 255);
+    border: 1px solid #555;
+    
+}
+
+a{
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#Header{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: solid 8px black;
+    text-align: center;
+    background-color: #8E41D5;
+}
+
+#Header h1{
+    font-size: 60px;
+    font-family: "Passion one";
+    color: #FFBC00;
+    font-weight: bold;
+    text-shadow: 10px 10px 10px greenyellow;
+}
+
+#LeftNav{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: solid 8px black;
+    float: left;
+    text-align: center;
+    padding-bottom: 8px;
+    background-color: #8E41D5;
+}
+
+#Content{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: solid 8px black;
+    text-align: center;
+    padding: 15px;
+    background-color: #8E41D5;
+    text-decoration: overline;
+    text-decoration-color: rgb(0, 255, 221); 
+}
+
+#Footer{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: solid 8px black;
+    text-align: center;
+    background-color: #8E41D5;
+}
+
+div {
+    opacity: 0.4;
+  }
+
+a:hover, a:active {
+    background-color: green;
+  }
+
+  li a {
+    display: block;
+    width: 60px;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
