@@ -1,0 +1,53 @@
+#header {
+    text-shadow: 5px 5px 5px rgb(152, 253, 0);
+    text-decoration: underline;
+}
+
+#first {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+#second {
+    font-family: "Lucida Console", Courier, monospace;
+  }
+
+p.dotted {border-style: dotted;}
+
+.corgiImg {
+    height: 50px;
+    width: 50px;
+}
+
+.container {
+    position: relative;
+    text-align: left;
+    color: white;
+  }
+
+.Fluffy {
+    margin: 20px;
+}
+
+.centered {
+    position: absolute;
+    top: 47%;
+    left: 23%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 0.55in;
+  }
+
+.floating {
+    float: left;
+    height: 680px;
+    width: 525px;
+  }
+
+#rcorners1 {
+    border-radius: 25px;
+    background-image: linear-gradient(to right, rgb(245, 255, 155) , rgb(161, 255, 10));
+    padding: 20px; 
+    width: 200px;
+    height: 150px;  
+    float: right;
+}
