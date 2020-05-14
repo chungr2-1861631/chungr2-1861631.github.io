@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Job Application</title>
+</head>
+<body>
+
+<h2>Job Application</h2>
+
+<form action="http://gclass.alexburner.com/formtest.php" method="post"> 
+
+<fieldset>
+    <legend>Account</legend>
+    <div class="field">
+        <label>Email:</label> 
+        <input type="email" name="email">
+    </div>
+    <div class="field">
+        <label>Password:</label> 
+        <input type="password" name="pwd">
+    </div>
+    <div class="field">
+        <label>Repeat password:</label> 
+        <input type="password" name="pwd_r">
+    </div>
+</fieldset>
+
+	<fieldset>
+		<legend>Personal Information</legend>
+		<div class="field">
+			<label>First Name:</label> 
+			<input type="text" name="firstname">
+		</div>
+		<div class="field">
+            <label>Last Name:</label> 
+            <input type="text" name="lastname">
+		</div>
+		<div class="field">
+			<label>Phone:</label>
+			<input type="tel" name="phone" placeholder="123-456-789" pattern="[0-9]{3}-[0-9]{3}=[0-9]{3}">
+		</div>
+		<div class="field">
+			<label>Street Address:</label> 
+			<input type="text" name="street">
+		</div>
+		<div class="field">
+			<label>City:</label> 
+			<input type="text" name="city">
+		</div>
+		<div class="field">
+			<label>State:</label> 
+			<input type="text" name="State">
+		</div>
+		<div class="field">
+			<label>ZIP:</label> 
+			<input type="text" name="zip">
+        </div>
+        <div class="field">
+			<label>Are you authorized to work in the U.S.?</label> 
+			<input type="radio" name="authorized" value="yes">Yes
+			<input type="radio" name="authorized" value="no">No
+        </div>
+        <div class="field">
+			<label>Have you ever been convicted of a felony?</label> 
+			<input type="radio" name="convicted" value="yes">Yes
+			<input type="radio" name="convicted" value="no">No
+		</div>
+	</fieldset>
+
+    <fieldset>
+        <legend>Education</legend>
+        <div class="field">
+			<label>Level of education attained? (check all that apply)</label><br>
+				<input type="checkbox" name="education_hs" value="highschool">High School Diploma<br>
+				<input type="checkbox" name="education_ad" value="associate's">Associate's Degree<br>
+                <input type="checkbox" name="education_bd" value="bachelor's">Bachelor's Degree<br>
+                <input type="checkbox" name="education_md" value="master's">Master's Degree<br>
+                <input type="checkbox" name="education_dd" value="doctoral">Doctoral Degree<br>
+		</div>
+    </fieldset>
+
+	<fieldset>
+		<legend>Availability</legend>
+		<div class="field">
+			<label>What type of position are you applying for?</label>
+			<select name="position">
+				<option value="assets_protection">Assets Protection</option>
+				<option value="food_service">Food Service</option>
+				<option value="general_merchandise">General Merchandise</option>
+				<option value="human_resources">Human Resources</option>
+				<option value="security">Security</option>
+				<option value="visual_merchandiser">Visual Merchandiser</option>
+			</select>
+		</div>		
+		<div class="field">
+			<label>When can you start working?</label>
+    		<input type="date" name="start">
+		</div>
+		<div class="field"> 
+			<label>How many hours a week can you work for?</label>
+			<input type="number" name="hours">
+		</div>	
+	</fieldset>
+
+	<fieldset>
+		<legend>Personal Statement</legend>
+		<div class="field">
+			<label>Why should we hire you?</label><br>
+			<textarea name="why" rows="10" cols="70">Maximum of 300 words</textarea>
+		</div>
+		<div class="field">
+			<label>What are your hobbies?</label><br>
+			<textarea name="hobbies" rows="10" cols="70">Maximum of 300 words</textarea>
+		</div>
+	</fieldset>
+
+	<input type="submit" value="Submit form">
+	<input type="reset">
+	
+</form>
+</body>
+</html>
